@@ -1,3 +1,4 @@
+require 'set'
 module Pod
   class MessageBank
     attr_reader :configurator

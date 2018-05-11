@@ -1,3 +1,4 @@
+require 'set'
 module Pod
 
   class ConfigureIOS

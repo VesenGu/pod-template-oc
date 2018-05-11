@@ -1,5 +1,5 @@
 require 'xcodeproj'
-
+require 'set'
 module Pod
 
   class ProjectManipulator
