@@ -1,0 +1,14 @@
+#use_frameworks!
+source 'http://192.168.10.81/IOS/commline/iOSPod.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target '${POD_NAME}_Example' do
+  pod '${POD_NAME}', :path => '../'
+
+  target '${POD_NAME}_Tests' do
+    inherit! :search_paths
+
+    ${INCLUDED_PODS}
+  end
+end
